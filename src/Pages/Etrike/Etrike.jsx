@@ -2024,8 +2024,7 @@ function Etrike() {
       </section> */}
       <div className="foot-div" >
   <Footer />
-      </div>
-    
+      </div> 
       <Navbar />
     </main>
   );
