@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import MobileApp from "./mobile/MobileApp";
+import DesktopApp from "./desktop/DesktopApp";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./Pages/Etrike/Home/Home";
+import "./App.css";
+import Etrike from "./Pages/Etrike/Etrike";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+
+const Driver = () => (
+  <>
+    <div className=" hide-lg">
+      <MobileApp />
+    </div>
+    <div className=" hide-sm">
+      <DesktopApp />
+    </div>
+  </>
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/investment" element={<Etrike />} />
+        <Route path="/driver" element={<Driver />} />
+        <Route element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
