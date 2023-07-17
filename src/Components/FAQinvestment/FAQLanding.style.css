@@ -1,0 +1,140 @@
+.FAQLandingGlobalContainer {
+  padding: 4rem 0;
+  background-image: url("./images/faqback.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.FAQLandingGlobalContainerTop {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+  color: #000;
+}
+
+.FAQLandingGlobalContainer .contentType {
+  color: #333;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.04rem;
+}
+.FAQLandingGlobalContainer p {
+  color: #333;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.04rem;
+}
+
+.FAQLandingGlobalContainerInner {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 1rem;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 95vw;
+  max-width: 500px;
+}
+
+/* Buton container styles */
+.stylesGlobal {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  position: relative;
+  margin: 2rem;
+}
+
+.formGroupArea {
+  position: relative;
+  width: 100%;
+}
+
+.formGroupArea input {
+  padding: 1rem 3rem 1rem 5rem;
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  background-color: #fff;
+}
+
+.formGroupArea .emailLogobox {
+  color: #000;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%, -50%);
+}
+
+.formGroupArea .contentss {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  border: none;
+  padding: 7.333px 20.405px 7.278px 21.46px;
+  justify-content: center;
+  border-radius: 8.957px;
+  background: var(--primary-colour, #ffcc2a);
+  box-shadow: 0px 1.3435006141662598px 7.1653361320495605px 0px
+    rgba(0, 0, 0, 0.25);
+  transform: translate(-5%, -50%);
+}
+@media (min-width: 768px) {
+  .FAQLandingGlobalContainer {
+    padding: 4rem 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .FAQLandingGlobalContainer .contentType {
+    font-size: 2.5rem;
+  }
+
+  .FAQLandingGlobalContainerInner {
+    max-width: 1200px;
+  }
+  .formGroupArea .contentss {
+    padding: 8.332999999999998px 23.405px 7.278px 2.460000000000001px;
+  }
+}
+@media (min-width: 480px) {
+  .formGroupArea .contentss {
+    padding: 8.332999999999998px 23.405px 7.278px 2.460000000000001px;
+  }
+  .formGroupArea input {
+    padding: 1rem 16rem 1rem 4rem;
+  }
+  .stylesGlobal {
+    width: 0;
+  }
+  .formGroupArea {
+    position: relative;
+    width: 84vw;
+  }
+  .formGroupArea .emailLogobox {
+    font-size: 1.5rem;
+  }
+  .formGroupArea input {
+    padding: 1rem 2rem 1rem 2.5rem;
+  }
+  .FAQLandingGlobalContainer .contentType {
+    font-size: 2rem;
+  }
+}

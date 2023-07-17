@@ -1,0 +1,498 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+.hero-invest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  /* overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  /* overflow-y: hidden; */
+}
+.Etrike-body {
+  background-color: #fffbed;
+  font-family: General Sans;
+}
+.purchaseit {
+  width: 100%;
+  height: 100%;
+}
+.purchaseit h2 {
+  color: #020202;
+  font-family: General Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px; /* 156.25% */
+  letter-spacing: -0.634px;
+}
+.purchaseit p {
+  color: #020202;
+  font-family: General Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45.283px; /* 150.942% */
+  letter-spacing: -0.574px;
+}
+.purchase-img {
+  width: 90vw;
+}
+body {
+  font-family: General Sans;
+}
+.text-div > h2 {
+  font-size: 3.4em;
+  font-family: General Sans;
+
+  font-weight: 900;
+}
+.text-div span {
+  font-family: General Sans;
+}
+.text-div > p {
+  font-size: 20px;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: General Sans;
+}
+.video-container {
+  height: 26rem;
+  border-radius: 8px;
+  width: 50%;
+  background-color: black;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+  position: relative;
+}
+.product-peak {
+  width: 50%;
+}
+.wavey {
+  display: flex;
+  justify-content: center;
+}
+.video-container video {
+  height: 100%;
+  border-radius: 8px;
+}
+.invest-now-btn {
+  border-radius: 16.935px;
+  background: var(--primary-colour, #ffcc2a);
+  box-shadow: 0px 2.540322780609131px 13.54838752746582px 0px
+    rgba(0, 0, 0, 0.25);
+  padding: 16.935px 30px;
+  border: none;
+  width: 100%;
+  color: #000;
+  margin: auto;
+  font-family: General Sans;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: -0.66px;
+}
+.postvest {
+  width: 180px;
+}
+.btn-invest {
+  padding-top: 50px;
+  width: 17%;
+  height: 10%;
+  margin: auto;
+}
+* {
+  font-family: Satoshi;
+}
+.head-fix {
+  margin-top: 4rem;
+}
+.head-fix > p {
+  color: #000;
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  position: relative;
+  top: 95px;
+  line-height: 26px;
+  letter-spacing: -0.634px;
+}
+.trusted-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.box-img {
+  display: flex;
+}
+.conven {
+  width: 150vh;
+  display: flex;
+  margin-bottom: 50px;
+}
+.bab {
+  width: 50%;
+  height: 55%;
+}
+.box-img-1 {
+  width: 150vh;
+  margin-right: 6rem;
+  display: flex;
+  margin-bottom: 50px;
+}
+.box-img > h2 {
+  font-size: 25px;
+  width: 20px;
+  margin-left: 17px;
+}
+.theproblem {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+}
+.Problem-text {
+  flex: 1;
+}
+.problem-img {
+  flex: 1;
+}
+.Problem-text > h2 {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  font-family: General Sans;
+
+  line-height: 120px;
+  letter-spacing: -0.634px;
+}
+.prb-img {
+  width: 70%;
+}
+.Problem-text > h2 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+}
+.Problem-text > p {
+  color: #020202;
+  font-family: General Sans;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45.283px;
+  letter-spacing: -0.574px;
+}
+.themission {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+  margin-top: 100px;
+}
+.themission2 {
+  display: flex;
+}
+.mission-img {
+  flex: 1;
+  padding-right: 66px;
+}
+.mission-img > p {
+  color: #020202;
+  font-size: 20px;
+  font-style: normal;
+  gap: 160px;
+  display: flex;
+  font-family: General Sans;
+
+  font-weight: 500;
+  line-height: 45.283px;
+  letter-spacing: -0.574px;
+}
+.mission-img > h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.video2-contain {
+  height: 26rem;
+  border-radius: 8px;
+  width: 40%;
+  background-color: black;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+}
+.video2-contain video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+.video-contain-full {
+  height: 26rem;
+  border-radius: 8px;
+  width: 100%;
+  background-color: black;
+  margin: auto;
+  margin-top: 4rem;
+  display: flex;
+}
+.solution-img {
+  flex: 1;
+  padding-right: 66px;
+}
+.solution-img > h2 {
+  font-size: 20px;
+  line-height: 47px;
+  font-family: General Sans;
+
+  font-weight: 900;
+  letter-spacing: -0.574px;
+}
+.the-solution {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+}
+.list-solution {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 40px;
+}
+.join-the {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+  margin-top: 10rem;
+}
+.join-the2 {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding-left: 134px;
+}
+.join {
+  flex: 1;
+}
+.solution-img {
+  width: 90%;
+}
+.join > p {
+  color: #020202;
+  font-family: General Sans;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45.283px;
+  letter-spacing: -0.574px;
+}
+.Breakdown {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 80px;
+}
+
+.Break-1 {
+  flex: 1;
+  width: 50%;
+  margin: auto;
+}
+.imgbreak {
+  width: 80%;
+}
+.img-fun {
+  width: 80%;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+.foot-div {
+  /* margin-top: 2rem; */
+}
+
+@media (max-width: 768px) {
+  /* CSS styles for mobile devices */
+  /* Adjust your styles here */
+  /* .Etrike-body {
+    background-color: #0d83f2;
+  } */
+  .themission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .theproblem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .solution-img {
+    width: 120%;
+  }
+  .conven {
+    width: 100%;
+    margin: auto;
+    padding-right: 74px;
+  }
+  .head-fix p {
+    position: relative;
+    top: 20px;
+  }
+  .btn-invest {
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .Problem-text {
+    flex: 1;
+    padding-right: 20%;
+  }
+  .Problem-text h2 {
+    font-size: 20px;
+  }
+  .problem-text p {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  /* .give {
+    display: none;
+  } */
+  .join > p {
+    color: #020202;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35.283px;
+    letter-spacing: -0.574px;
+  }
+  .prb-img {
+    width: 70%;
+  }
+  .text-div > h2 {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: "Satoshi";
+    font-weight: 900;
+  }
+  .Problem-text p {
+    font-size: 18px;
+  }
+  .mission-img h2 {
+    font-size: 30px;
+  }
+
+  .solution-img h2 {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  .invest-now-btn {
+    border-radius: 15.935px;
+    background: var(--primary-colour, #ffcc2a);
+    box-shadow: 0px 2.540322780609131px 13.54838752746582px 0px
+      rgba(0, 0, 0, 0.25);
+    padding: 14px 29px;
+    border: none;
+    width: 100%;
+    color: #000;
+    margin: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.66px;
+  }
+  .mission-img p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .video-container {
+    width: 80%;
+    margin: auto;
+
+    height: 341px;
+  }
+  .the-solution {
+    display: flex;
+    flex-direction: column;
+    /* gap: 160px;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding-left: 134px; */
+  }
+  .video2-contain {
+    height: 26rem;
+    object-fit: contain;
+    border-radius: 8px;
+    width: 100%;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+  }
+  .join-the2 {
+    padding-right: 80px;
+    flex-direction: column;
+  }
+  .imgbreak {
+    width: 80%;
+    gap: 20px;
+  }
+  .Breakdown {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img-fun {
+    width: 100%;
+  }
+}
+.white {
+  color: white;
+}

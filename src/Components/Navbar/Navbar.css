@@ -1,0 +1,368 @@
+.landingNavHeader {
+  position: fixed;
+  top: 0;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 0 1rem;
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(62px);
+}
+
+.landingNavHeaderInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.landingNavHeaderInner .logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: auto;
+  cursor: pointer;
+  width: 250px;
+}
+
+.landingNavigation {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.landingNavigation a {
+  color: #121212;
+  text-align: center;
+  font-family: General Sans;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.634px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 130px;
+
+  transition: all 0.3s ease-in;
+}
+
+.landingNavigation a:hover {
+  /* text-decoration: underline !important; */
+  color: #ffcc2a;
+}
+
+.landingNavigationButtons {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: end;
+}
+
+.landingNavigationButtons.hidden {
+  display: none;
+}
+
+.landingNavigationButtons .secondaryButton {
+  border-radius: 12px;
+  background: #ffcc2a;
+  font-size: 1rem;
+  color: #000;
+  font-family: General Sans;
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.002rem;
+  padding: 16px 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Navbar.css */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal label {
+  margin-bottom: 0.5rem;
+}
+
+.modal input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.modal button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.landingNavigationButtons .secondaryButton:hover {
+  background-color: transparent;
+  color: #ffcc2a;
+  border: 1px solid #ffcc2a;
+}
+.form-fix {
+  background-color: #fff;
+  height: 30vh;
+}
+
+.hamburgerToggleMenu {
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 99;
+  display: none;
+}
+.bugalogo {
+  width: 50%;
+  height: 50%;
+}
+/*pop*/
+
+.popup {
+  position: fixed;
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  display: flex;
+  width: 500px;
+  padding: 24.589px 84.788px 134.128px 85.477px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20.516px;
+  padding: 20px;
+  border-radius: 11.709px;
+  z-index: 10; /* Ensure pop-up appears above backdrop */
+}
+
+.popup-inner {
+  text-align: center;
+}
+
+.popup h2 {
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+main.popup {
+  /* Your existing styles for the pop-up */
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup-inner > h2 {
+  font-size: 15px;
+}
+.form-row {
+  margin-bottom: 1rem;
+}
+/* Add backdrop styling */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity for the desired blur effect */
+  z-index: 5; /* Ensure backdrop appears behind the pop-up */
+}
+.modal-wait {
+  border-radius: 6.228px;
+  background: #ffcc2a;
+  padding: 12.238px 10px 14.795000000000002px 14px;
+  border: none;
+  box-shadow: 0px 2.491398811340332px 8.719895362854004px 0px rgba(0, 0, 0, 0.1);
+}
+.Sign-input-join {
+  width: 100%;
+  padding: 0.85rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e2e8f0;
+}
+.join-wait-form {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  padding: 2rem 2.5rem;
+
+  border-radius: 4px 4px 0 0;
+  gap: 20px;
+}
+
+.input-text {
+  letter-spacing: 0.002em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  line-height: 140%;
+  margin-left: 1px;
+}
+
+@media (max-width: 890px) {
+  .landingNavigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    z-index: 10;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.47) 100%
+    );
+    backdrop-filter: blur(62px);
+  }
+
+  .landingNavigation.mobile {
+    transform: translateX(0%);
+  }
+
+  .landingNavigationButtons {
+    /*  to be changed later */
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+
+  .landingNavigation a {
+    color: #fff;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .hamburgerToggleMenu {
+    display: flex;
+    flex-flow: column nowrap;
+    cursor: pointer;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .burger {
+    width: 3rem;
+    height: 0.2rem;
+    border-radius: 10px;
+    transform-origin: 1px;
+    background-color: #ffcc2a;
+    transition: all 0.3s linear;
+  }
+
+  .overlayModal {
+    position: fixed;
+    top: 5rem;
+    left: -100%;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    transition: all 0.1s ease-in-out;
+  }
+
+  .overlayModal.open {
+    left: 0%;
+  }
+
+  .hamburgerToggleMenu:nth-child(1) {
+    transform: rotate(0deg);
+  }
+
+  .one {
+    transform: rotate(45deg);
+  }
+
+  .hamburgerToggleMenu:nth-child(2) {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .two {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  .hamburgerToggleMenu:nth-child(3) {
+    transform: rotate(0deg);
+  }
+
+  .three {
+    transform: rotate(-45deg);
+  }
+}

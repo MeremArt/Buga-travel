@@ -1,0 +1,25 @@
+@media (max-width: 1000px) {
+  .hide-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hide-lg {
+    display: none;
+  }
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: General Sans;
+}
+input:active {
+  border: none;
+}
+input:focus {
+  border: none;
+}
+input:focus-visible {
+  border: none;
+}

@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .slider-item {
+    max-height: 57vh;
+  }
+  .slider-item > h3 {
+    font-size: 30px;
+  }
+}

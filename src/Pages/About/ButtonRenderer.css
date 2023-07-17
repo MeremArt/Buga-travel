@@ -1,0 +1,75 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: General Sans;
+
+  justify-content: center;
+  height: 100vh;
+}
+.Rocket {
+  background-image: url("./images/Rocket.svg");
+  width: 50vw;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.button-container-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.rocket-fix {
+  align-items: center;
+  display: flex;
+  width: 130vw;
+  position: absolute;
+  height: 130vh;
+  margin-bottom: 2.5rem;
+}
+.button-render-about {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 18.545px;
+  color: #000;
+  font-family: General Sans;
+
+  font-size: 20.909px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 49.455px; /* 160% */
+  letter-spacing: -0.68px;
+  background: #fff5bb;
+  border: none;
+  padding: 8.818000000000001px 45.909px 2.727000000000004px 40.909px;
+  cursor: pointer;
+}
+
+.button-render-about.active {
+  border-radius: 18.545px;
+  cursor: pointer;
+  background: #ffcc2a;
+  padding: 8.818000000000001px 45.909px 2.727000000000004px 40.909px;
+  border: none;
+  color: #000;
+  font-family: General Sans;
+
+  font-size: 20.909px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 49.455px;
+  letter-spacing: -0.68px;
+}
+.output-text-about {
+  color: #121212;
+  text-align: center;
+  font-family: General Sans;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: -0.634px;
+  margin-top: 10px;
+}

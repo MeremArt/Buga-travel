@@ -1,0 +1,104 @@
+.individualFAQ {
+  width: 100%;
+  height: 100%;
+}
+
+.individualFAQTop {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.individualFAQTop.bgyellow {
+  background-color: #ffcc2a;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+.emptyDivContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.individualFAQTop span {
+  color: #333;
+  font-family: "Avenir Regular", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  margin-bottom: 1rem;
+}
+
+.individualFAQTop p {
+  color: #333;
+  font-family: "Avenir Regular", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  text-align: left;
+}
+
+.individualFAQTop .remUnitsIcon {
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Bootom section styles */
+.individualFAQBottom {
+  position: relative;
+
+  background: #ffcc2a;
+  margin-bottom: 0.5rem;
+}
+
+.individualFAQBottom .razzImage {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 20px;
+  height: 20px;
+}
+
+.individualFAQBottom p {
+  padding: 3rem 1rem 1rem 1rem;
+  color: #fff;
+  font-family: "Karla", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.00175rem;
+}
+
+@media (min-width: 768px) {
+  .individualFAQTop p {
+    font-size: 1.2rem;
+  }
+
+  .individualFAQTop .remUnitsIcon {
+    font-size: 1.5rem;
+  }
+
+  .individualFAQBottom {
+    margin-bottom: 1rem;
+  }
+
+  .individualFAQBottom .razzImage {
+    left: 1%;
+    width: 30px;
+    height: 30px;
+  }
+
+  .individualFAQBottom p {
+    padding: 4rem 1rem 1rem 1rem;
+    font-size: 1rem;
+  }
+  .individualFAQTop p {
+    font-size: 1.5rem;
+  }
+}

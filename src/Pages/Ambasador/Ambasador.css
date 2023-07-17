@@ -1,0 +1,148 @@
+.bg-ambassdor {
+  background-image: url("./images/ABAB.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120vh;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.form-row {
+  width: 100%;
+}
+.ambass-form {
+  padding: 8rem 5rem 0 0;
+}
+.form {
+  /* Create Account Card */
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 39rem;
+  padding: 2rem 2.5rem;
+  background: #ffffff;
+
+  /* Shadow 4 */
+  box-shadow: 0px 11px 40px -17px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 30px 40px;
+  gap: 10px;
+}
+.abs-fix-up {
+  display: flex;
+  justify-content: center;
+}
+.abs-fix-up h2 {
+  font-size: 1.2rem;
+  color: #222;
+  font-family: Satoshi;
+
+  font-style: normal;
+  font-weight: 900;
+  line-height: 34.044px; /* 141.849% */
+  letter-spacing: -0.434px;
+}
+/* .Signup-page {
+  width: 100%;
+  background: url("../../assets/background.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.Signup-page .container {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+  gap: 20px;
+}
+
+.Signup-input {
+  width: 100%;
+  padding: 0.85rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e2e8f0;
+}
+
+.Signup-input-form {
+  display: flex;
+  flex-direction: column;
+}
+.Signup-checkbox {
+  letter-spacing: 0.002em;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Signup-input-form input[type="checkbox"]:checked {
+  color: #e29e15;
+}
+.CreateAccount-btn {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 18px;
+  justify-content: center;
+  padding: 12px 16px;
+  background: #fbca41;
+  border: 0px solid #fbca41;
+  border-radius: 4px;
+  padding: 12px 16px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.Signin-option {
+  display: flex;
+  margin: auto;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.SignupGoogle-btn {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 25px;
+  gap: 8px;
+  justify-content: center;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 16px;
+  border: 1px solid #4e4e4e;
+  width: 100%;
+  font-size: 14px;
+  background-color: none;
+  color: #121211;
+}
+.input-text {
+  letter-spacing: 0.002em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  margin-left: 1px;
+}
+
+article.tnc {
+  display: flex;
+  gap: 15px;
+  color: #121517;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.002em;
+}
+
+.signup-or {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
