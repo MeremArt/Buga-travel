@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Etrike/Home/Home";
 import "./App.css";
-import Etrike from "./Pages/Etrike/Etrike";
+import Etrike from "./Pages/Etrike/Etrike"; 
 import Homep from "./Pages/Etrike/Homepage/Homep";
 import MobileApp from "./mobile/MobileApp";
 import Ambasador from "./Pages/Ambasador/Ambasador";
